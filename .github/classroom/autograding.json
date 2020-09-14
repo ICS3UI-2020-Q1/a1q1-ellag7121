@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Sample",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "18",
+      "output": "Please enter a temperature you would like to convert in degrees Celsius.\r\n18C is the same as 64F",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Below zero",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "-40",
+      "output": "Please enter a temperature you would like to convert in degrees Celsius.\r\n-40C is the same as -40F",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Just Freezing",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "0",
+      "output": "Please enter a temperature you would like to convert in degrees Celsius.\r\n0C is the same as 32F",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
